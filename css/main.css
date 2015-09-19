@@ -1,0 +1,155 @@
+/* ==========================================================================
+   Custom styles
+   ========================================================================== */
+
+
+@font-face{
+    font-family: 'Fira Sans';
+    src: url('../fonts/eot/FiraSans-Regular.eot');
+    src: local('Fira Sans Regular'),
+         url('../fonts/eot/FiraSans-Regular.eot') format('embedded-opentype'),
+         url('../fonts/woff/FiraSans-Regular.woff') format('woff'),
+         url('../fonts/ttf/FiraSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Fira Mono';
+    src: url('../fonts/eot/FiraMono-Regular.eot');
+    src: local('Fira Mono'),
+         url('../fonts/eot/FiraMono-Regular.eot') format('embedded-opentype'),
+         url('../fonts/woff/FiraMono-Regular.woff') format('woff'),
+         url('../fonts/ttf/FiraMono-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: #fffff8;
+    color: #333;
+}
+a { color: #c00; }
+
+.navbar-header a.navbar-brand,
+.navbar-nav a {
+	color: #fffff8;
+    font-family: 'Fira Sans', Geneva, Tahoma, Helvetica, Arial;
+	text-transform: uppercase;
+    font-weight: 500;
+	font-size: .7em;
+	letter-spacing: .25em;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: Georgia, Times New Roman, Times, serif;
+    margin-top: 1.5em;
+    line-height: 1.25em;
+    color: #000;
+    font-family: 'Fira Sans', Geneva, Tahoma, Helvetica, Arial;
+    font-weight: 400;
+}
+.btn {
+    font-family: 'Fira Sans', Geneva, Tahoma, Helvetica, Arial;
+    font-weight: 500;
+}
+
+.boilerplate {
+    font: 1.25em/1.5em Georgia, Times New Roman, Times, serif;
+}
+.boilerplate p { margin: 1em 0; }
+.content li { margin: .5em 0; }
+
+.jumbotron { 
+    margin-top: 2em;
+    margin-bottom: 0;
+    background: repeating-linear-gradient(
+      45deg,
+      #ffe,
+      #ffe 20px,
+      #fff9e1 20px,
+      #fff9e1 40px
+    );
+}
+
+.jumbotron p { 
+    font-family: 'Fira Mono', Geneva, Tahoma, Helvetica, Arial;
+    font-weight: 400;
+    font-size: 2em;
+    line-height: 1.2em;
+    margin: 0;
+}
+
+
+
+
+
+.bs-docs-sidebar.affix {
+        top: 6em;
+        position: fixed;
+}
+
+@media (min-width:768px) {
+    .bs-docs-sidebar {
+        padding-left: 20px
+    }
+}
+.bs-docs-sidebar .nav>li>a {
+    display: block;
+    padding: 4px 20px;
+    font-size: 13px;
+    font-weight: 500;
+}
+.bs-docs-sidebar .nav li {
+    list-style: none;
+}
+.bs-docs-sidebar .nav li a { color: #767676; }
+.bs-docs-sidebar .nav li a:hover { color: #c00; }
+
+.bs-docs-sidebar .nav>li>a:focus, .bs-docs-sidebar .nav>li>a:hover {
+    padding-left: 19px;
+    text-decoration: none;
+    background-color: transparent;
+    border-left: 1px solid #563d7c
+}
+.bs-docs-sidebar .nav>.active:focus>a, .bs-docs-sidebar .nav>.active:hover>a, .bs-docs-sidebar .nav>.active>a {
+    padding-left: 18px;
+    font-weight: 700;
+    color: #563d7c;
+    background-color: transparent;
+    border-left: 2px solid #563d7c
+}
+.bs-docs-sidebar .nav .nav>li>a {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 30px;
+    font-size: 12px;
+    font-weight: 400
+}
+.bs-docs-sidebar .nav .nav>li>a:focus, .bs-docs-sidebar .nav .nav>li>a:hover {
+    padding-left: 29px
+}
+.bs-docs-sidebar .nav .nav>.active:focus>a, .bs-docs-sidebar .nav .nav>.active:hover>a, .bs-docs-sidebar .nav .nav>.active>a {
+    padding-left: 28px;
+    font-weight: 500
+}
+
+.front-box:hover {
+    background-color: #fc0;
+    -webkit-transition: background-color 1s, -webkit-transform 1s;
+    transition: background-color 1s, transform 1s;
+}
+.front-box {
+    background-color: #fe9;
+    border: 5px solid #fff;
+    margin-left: 1em;
+    margin-right: -2em;
+    -webkit-transition: background-color 1s, -webkit-transform 1s;
+    transition: background-color 1s, transform 1s;
+}
+.front-box h2 {
+    margin-top: .25em;
+}
+
