@@ -62,29 +62,54 @@ h1, h2, h3, h4, h5 {
 .boilerplate p { margin: 1em 0; }
 .content li { margin: .5em 0; }
 
-.jumbotron { 
-    margin-top: 2em;
-    margin-bottom: 0;
-    background: repeating-linear-gradient(
-      45deg,
-      #ffe,
-      #ffe 20px,
-      #fff9e1 20px,
-      #fff9e1 40px
-    );
+
+
+
+
+/* home */
+
+.wallpaper {
+  background: url(../img/satbg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-.jumbotron p { 
-    font-family: 'Fira Mono', Geneva, Tahoma, Helvetica, Arial;
+.front { 
+    margin-top: 4em;
+    margin-bottom: 1em;
+    background: none;
+    padding: 10px;
+}
+
+.front p { 
+    background-color: #fffff8;
+    font: 2.5em/1.2em 'Fira Mono', Geneva, Tahoma, Helvetica, Arial;
     font-weight: 400;
-    font-size: 2em;
-    line-height: 1.2em;
-    margin: 0;
+    padding: 1em;
+}
+
+.front-box:hover {
+    background-color: #fc0;
+    -webkit-transition: background-color 1s, -webkit-transform 1s;
+    transition: background-color 1s, transform 1s;
+}
+.front-box {
+    background-color: #fe9;
+    background-clip: padding-box;
+    border: 10px solid transparent;
+    -webkit-transition: background-color 1s, -webkit-transform 1s;
+    transition: background-color 1s, transform 1s;
+}
+.front-box h2 {
+    margin-top: .25em;
 }
 
 
 
 
+/* resources page */
 
 .bs-docs-sidebar.affix {
         top: 6em;
@@ -134,22 +159,5 @@ h1, h2, h3, h4, h5 {
 .bs-docs-sidebar .nav .nav>.active:focus>a, .bs-docs-sidebar .nav .nav>.active:hover>a, .bs-docs-sidebar .nav .nav>.active>a {
     padding-left: 28px;
     font-weight: 500
-}
-
-.front-box:hover {
-    background-color: #fc0;
-    -webkit-transition: background-color 1s, -webkit-transform 1s;
-    transition: background-color 1s, transform 1s;
-}
-.front-box {
-    background-color: #fe9;
-    border: 5px solid #fff;
-    margin-left: 1em;
-    margin-right: -2em;
-    -webkit-transition: background-color 1s, -webkit-transform 1s;
-    transition: background-color 1s, transform 1s;
-}
-.front-box h2 {
-    margin-top: .25em;
 }
 
