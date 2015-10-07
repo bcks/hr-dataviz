@@ -108,11 +108,13 @@ h1, h2, h3, h4, h5 {
 
 
 
+.top-buffer { padding: 1em; }
+
 
 /* resources page */
 
 .bs-docs-sidebar.affix {
-        top: 6em;
+        top: 9.5em;
         position: fixed;
 }
 
