@@ -113,6 +113,19 @@ h1, h2, h3, h4, h5 {
 
 /* resources page */
 
+body.resources h2,
+body.resources h3 {
+    border-top: 3px solid #eee;
+    padding-top: .5em;
+    margin-top: 2em;
+}
+body.resources h3.no-border {
+    border-top: none;
+    padding-top: 0;
+    margin-top: 1em;    
+}
+
+
 .bs-docs-sidebar.affix {
         top: 9.5em;
         position: fixed;
@@ -163,3 +176,21 @@ h1, h2, h3, h4, h5 {
     font-weight: 500
 }
 
+
+
+.columns {
+    padding-top: 1em;
+}
+.column-sep {
+    border-top: 1px solid #eee;
+    margin-top: 1em;
+}
+.columns div {
+    border-left: 1px solid #eee;
+}
+.columns h5 {
+    margin-top: 0px;
+}
+.columns div:first-child { 
+    border-left: none;
+}
