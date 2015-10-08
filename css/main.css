@@ -205,10 +205,12 @@ body.resources h3.no-border {
 .columns h5 {
     margin-top: 0px;
     font-family: 'Fira Sans Medium';
+    line-height: 1.4em;
 }
 .columns div:first-child { 
     border-left: none;
 }
+.columns p { font-size: .85em; }
 
 @media only screen and (max-width : 768px) {
     .column-sep { border: none; margin-top: 0em; padding-top: 0px; }
