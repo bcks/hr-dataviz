@@ -111,6 +111,9 @@ h1, h2, h3, h4, h5 {
 .top-buffer { padding: 1em; }
 
 
+
+
+
 /* resources page */
 
 body.resources h2,
@@ -193,4 +196,11 @@ body.resources h3.no-border {
 }
 .columns div:first-child { 
     border-left: none;
+}
+
+@media only screen and (max-width : 768px) {
+    .column-sep { border: none; margin-top: 0em; padding-top: 0px; }
+    .columns div { margin-bottom: 2em; }
+    .columns div h5 { margin-bottom: 2px; }
+    .columns div p { margin-top: 2px; }
 }
