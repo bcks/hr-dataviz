@@ -13,6 +13,16 @@
     font-weight: 400;
     font-style: normal;
 }
+@font-face{
+    font-family: 'Fira Sans Medium';
+    src: url('../fonts/eot/FiraSans-Medium.eot');
+    src: local('Fira Sans Medium'),
+         url('../fonts/eot/FiraSans-Medium.eot') format('embedded-opentype'),
+         url('../fonts/woff/FiraSans-Medium.woff') format('woff'),
+         url('../fonts/ttf/FiraSans-Medium.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
 
 @font-face{
     font-family: 'Fira Mono';
@@ -183,6 +193,7 @@ body.resources h3.no-border {
 
 .columns {
     padding-top: 1em;
+    color: #444;
 }
 .column-sep {
     border-top: 1px solid #eee;
@@ -193,6 +204,7 @@ body.resources h3.no-border {
 }
 .columns h5 {
     margin-top: 0px;
+    font-family: 'Fira Sans Medium';
 }
 .columns div:first-child { 
     border-left: none;
