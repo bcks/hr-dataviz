@@ -116,11 +116,28 @@ h1, h2, h3, h4, h5 {
     margin-top: .25em;
 }
 
-
-
 .top-buffer { padding: 1em; }
 
 
+.lower {
+    margin-top: 2em;
+    background: none;
+    padding: 10px;
+}
+.lower a {
+    background-color: #fc0;
+	display: block;
+    padding: 1em;
+    font: 1.5em/1.2em 'Fira Sans', Geneva, Tahoma, Helvetica, Arial;
+    font-weight: 400;
+    text-align:center;
+    color: #000;
+}
+.lower a:hover {
+    background-color: #f90;
+    -webkit-transition: background-color 1s, -webkit-transform 1s;
+    transition: background-color 1s, transform 1s;
+}
 
 
 
