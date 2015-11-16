@@ -54,7 +54,6 @@ a { color: #c00; }
 }
 
 h1, h2, h3, h4, h5 {
-    font-family: Georgia, Times New Roman, Times, serif;
     margin-top: 1.5em;
     line-height: 1.25em;
     color: #000;
@@ -234,4 +233,12 @@ body.resources h3.no-border {
     .columns div { margin-bottom: 2em; }
     .columns div h5 { margin-bottom: 2px; }
     .columns div p { margin-top: 2px; }
+}
+
+
+
+summary {
+	font-size: 1.5em;
+    font-family: Georgia, Times New Roman, Times, serif;
+    margin: 1.5em 0;
 }
