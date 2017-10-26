@@ -46,9 +46,9 @@ a { color: #c00; }
 .navbar-header a.navbar-brand,
 .navbar-nav a {
 	color: #fffff8;
-    font-family: 'Fira Sans', Geneva, Tahoma, Helvetica, Arial;
-	text-transform: uppercase;
-    font-weight: 500;
+  font-family: 'Fira Sans', Geneva, Tahoma, Helvetica, Arial;
+  text-transform: uppercase;
+  font-weight: 500;
 	font-size: .7em;
 	letter-spacing: .25em;
 }
@@ -306,9 +306,6 @@ a.grid-cell:hover,
 	margin-bottom: 2em;
 }
 a.grid-cell {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   width: 49%;
   margin: 1% 1% 0 0;	
   padding: 1em;
@@ -374,13 +371,31 @@ a.grid-cell {
 .grid-cell img {
 	max-height: 4em;
 	width: auto;
-	margin: 0 auto 1em auto;
-	display: block;
 }
-
+.mini-chart {
+	width: 100%;
+  text-align: center;
+  display: block;
+  margin-bottom: .75em;
+}
+.charts .grid-cell {
+  text-align: center;
+}
 .boilerplate li {
   margin: 1em 0;
 }
+
+
+.boilerplate .caption {
+  font-family: 'Fira Sans', Geneva, Tahoma, Helvetica, Arial;
+  font-size: .75em;
+  color: #999;
+  border-top: 1px solid #eee;
+  margin-top: 3em;
+  padding-top: .5em;
+}
+.caption a { color: #c66; }
+
 
 @media (min-width: 576px) { 
 	.sidebar {

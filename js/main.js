@@ -1,2 +1,1 @@
-window.addEventListener("hashchange", function() { scrollBy(0, -75) })
-
+window.addEventListener("hashchange", function() { scrollBy(0, -75) });
