@@ -296,12 +296,19 @@ a.grid-cell:hover,
 }
 
 .grid {
-	display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 	width: 100%;
-	flex-wrap: wrap;
 	margin-bottom: 2em;
 }
 a.grid-cell {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   width: 49%;
   margin: 1% 1% 0 0;	
   padding: 1em;
