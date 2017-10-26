@@ -371,6 +371,9 @@ a.grid-cell {
 	display: block;
 }
 
+.boilerplate li {
+  margin: 1em 0;
+}
 
 @media (min-width: 576px) { 
 	.sidebar {
