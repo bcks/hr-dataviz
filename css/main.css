@@ -387,8 +387,7 @@ a.grid-cell {
 
 
 .boilerplate .caption {
-  font-family: 'Fira Sans', Geneva, Tahoma, Helvetica, Arial;
-  font-size: .75em;
+  font: .75em/1.4em 'Fira Sans', Geneva, Tahoma, Helvetica, Arial;
   color: #999;
   border-top: 1px solid #eee;
   margin-top: 3em;
