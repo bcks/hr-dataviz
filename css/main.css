@@ -396,7 +396,7 @@ a.grid-cell {
 .caption a { color: #c66; }
 
 
-@media (min-width: 576px) { 
+@media (min-width: 768px) { 
 	.sidebar {
 		display: block;	
 	}
@@ -405,4 +405,19 @@ a.grid-cell {
 	  margin: 1% 1% 0 0;	
 	}
 }
+
+
+
+@media print {
+  body {
+    padding-top: 0px;
+  }
+  .kit-nav { 
+    display: none;
+  }
+  h1, h2, h3, h4, h5 {
+    margin-top: 1em;  
+  }
+}
+
 
