@@ -269,19 +269,50 @@ summary {
 
 /* guide */
 
-.big-boxes a {
-  display: block;
+.big-box {
+  width: 100%;
   background-color: #fff;
-  padding: 1em;
-  min-height: 7em;
-  text-decoration: none;
   margin-bottom: 1em;
   font: 1.25em/1.25 'Fira Sans';
   box-shadow: 2px 2px 5px #ccc;
   transition: all .5s;
 }
+
+.big-box .main-link {
+  display: block;
+  float: right;
+  padding: 12px;
+  min-height: 7em;
+  text-decoration: none;
+  width: calc(100% - 36px);
+  transition: all .5s;
+}
+.big-box-top {
+  overflow: hidden;
+  transition: all .5s;
+}
+.big-box-bottom {
+	color: #999;
+	padding: .5em;
+	font-size: .8em;
+	text-align: center;
+	background-color: #eee;
+}
+.sep { padding: 0 10px 0 10px; }
+.big-box .first-letter {
+  color: #903;
+  float: left;
+  font-size: 36px;
+  padding: 8px 0 0 12px;
+  height: 100%;
+  display: block;
+}
+.big-box a:hover {
+	text-decoration: none;
+}
+
 a.grid-cell:hover,
-.big-boxes a:hover {
+.big-box-top:hover {
   background-color: #fc0;
   box-shadow: 2px 2px 5px #999;
 }
@@ -305,6 +336,7 @@ a.grid-cell:hover,
 	width: 100%;
 	margin-bottom: 2em;
 }
+
 a.grid-cell {
   width: 49%;
   margin: 1% 1% 0 0;	
@@ -322,6 +354,11 @@ a.grid-cell {
   text-indent: -25px;
 }
 
+.datestamp {
+	text-align: center;
+	font-size: .85em;
+	color: #999;
+}
 
 
 .sidebar {	
@@ -405,6 +442,10 @@ a.grid-cell {
 	a.grid-cell {
 	  width: 32%;
 	  margin: 1% 1% 0 0;	
+	}
+	.big-box {
+	  width: 32%;
+	  margin: 1% 1% 2% 0;	
 	}
 }
 
