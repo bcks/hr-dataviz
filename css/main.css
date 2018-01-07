@@ -311,6 +311,7 @@ summary {
 	text-decoration: none;
 }
 
+a.big-download:hover,
 a.grid-cell:hover,
 .big-box-top:hover {
   background-color: #fc0;
@@ -346,6 +347,20 @@ a.grid-cell {
   font: 1.25em/1.25 'Fira Sans';
   box-shadow: 2px 2px 5px #ccc;
   transition: all .5s;
+}
+
+a.big-download {
+  padding: 1em;
+  background-color: #fff;
+  text-decoration: none;
+  font: 1.25em/1.25 'Fira Sans';
+  border: 1px solid #ddd;
+  box-shadow: 2px 2px 5px #ccc;
+  transition: all .5s;
+  text-align: center;
+  width: 100%;
+  display: block;
+  margin: 4em 0 4em 0;
 }
 
 .pdf a {
