@@ -1,4 +1,5 @@
-# hr-dataviz
-Human Rights and Data Visualization
+# Human Rights and Data Visualization
 
-See the site: http://bcks.github.io/hrdataviz/
+The project website for an exploration of how human rights advocates can use effective data visualization.
+
+http://visualizingrights.org
