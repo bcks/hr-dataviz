@@ -1,5 +1,5 @@
 # Human Rights and Data Visualization
 
-The project website for an exploration of how human rights advocates can use effective data visualization.
+Project website for an investigation of ways in which human rights groups can use data visualization to enhance the impact and effectiveness of their research and advocacy.
 
 http://visualizingrights.org
